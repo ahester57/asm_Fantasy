@@ -64,7 +64,7 @@ void error(const char s[])
 }
 
 void PRINT(int a, int b)
-{ printf("Enter racer's start: ");
+{ printf("Number is: ");
 }
 
 void ADD(int a, int b)
@@ -97,12 +97,12 @@ void COPY(int a, int b)
 }
 
 void READ(int a, int b)
-{ printf("Enter racer %d start: ", a-1);
+{ printf("Give Number: ");
   scanf("%d",&Vars[a].val);
 }
 
 void WRITE(int a, int b)
-{ printf("Racer 2 is at: %d\n",Vars[a].val);
+{ printf("Number is: %d\n",Vars[a].val);
 }
 
 void STOP(int a, int b)
